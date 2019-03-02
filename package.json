@@ -1,0 +1,27 @@
+{
+  "name": "cropper",
+  "version": "0.0.1",
+  "description": "Component to crop images",
+  "main": "index.js",
+  "author": "Sergey Devjatov <sergey.devjatov@yandex.ru>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack-cli --config webpack.conf.js",
+    "build:declarations": "tsc",
+    "watch": "webpack-cli --watch --config webpack.conf.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "html-loader": "^0.5.5",
+    "style-loader": "^0.23.1",
+    "tslint": "^5.13.1",
+    "tslint-loader": "^3.5.4",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
